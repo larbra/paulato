@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    transition: .5s;
+}
+button{
+    cursor: pointer;
+}
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* MAIN */
+
+.header{
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+.header__logo a{
+    font-size: 40px;
+    color: black;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-link{
+    color: black;
+    font-size: 16px;
+}
+.menu-link:hover{
+    transform: scale(1.1);
+}
+.header-btn{
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+.header__btn{
+    display: flex;
+    gap: 20px;
+}
+.header-btn:hover{
+    box-shadow: 5px 2px 5px 2px silver;
+}
+
+
+.banner{
+    background: url('../media/banner-photo.png');
+    height: 91vh;
+    background-size: cover;
+    padding-top: 300px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.banner__title{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.banner__subtitle{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+
+.banner__btn{
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+.catalog{
+    margin-bottom: 120px;
+}
+.catalog__title{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.tovar__name{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pricebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.catalog__items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.catalog__btn{
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px;
+}
+
+.catalog__btn:hover{
+    box-shadow: 5px 2px 5px 2px silver;
+}
+
+
+.follow{
+    padding-top: 100px;
+    margin-bottom: 60px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.follow__title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.follow__items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow__text{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.follow__form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.follow__form input{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+.follow-btn{
+    padding: 20px 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.header__hidden{
+    display: none;
+}
+.gamnurg{
+    font-size: 40px;
+    color: black;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.footerbox{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+.footer__logo{
+    color: white;
+    font-size: 20px;
+}
+.asd{
+    color: white;
+    font-size: 20px;
+}
+
+.tovar{
+    padding-top: 250px;
+    height: 85vh;
+}
+
+.tovar__items{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.tovar__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tovar-text{
+    width: 300px;
+}
+.tovar__btn{
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.login{
+    
+    margin-top: 350px;
+    height: 58vh;
+}
+.login__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login__title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login__form input{
+    padding: 20px;
+    border-radius: 50px;
+}
+.dashboard{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+}
+.tovarbox{
+    padding-top: 50px;
+    height: 37vh;
+}
+.tovarbox__title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.tovarbox__items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tovarbox__item{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.dsa{
+    color: white;
+}
+.bottom p, .bottom a{
+    color: black;
+    font-size: 30px;
+}
+
+.bottom a{
+    border: 1px solid black;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.bottom{
+    border-top: 1px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media screen and (max-width: 768px){
+    .pricebox{
+        justify-content: center;
+        gap: 20px;
+    }
+    .tovarbox{
+        height: 50vh;
+    }
+    .bottom{
+        gap: 30px;
+        flex-direction: column;
+    }
+    .login{
+        margin-top: 100px;
+        height: 68vh;
+    }
+    .banner{
+        padding-top: 150px;
+    }
+    .header__hidden{
+        display: block;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header__btn{
+        display: none;
+    }
+    .catalog__items{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .follow__items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .followbox{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .follow__form{
+        gap: 20px;
+    }
+    .follow{
+        height: auto;
+        padding: 20px;
+    }
+    .follow-btn{
+        padding: 20px;
+    }
+    .footer__content{
+        flex-direction: column;
+    }
+    .tovar__items{
+        flex-direction: column;
+    }
+    .tovar{
+        padding-top: 50px;
+        height: 80vh;
+    }
+    .text{
+        padding-left: 50px;
+    }
+    img{
+        width: 100%;
+    }
+    .tovar__item{
+        flex-direction: column;
+    }
+}

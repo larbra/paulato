@@ -322,6 +322,12 @@ button{
         margin-top: 100px;
         height: 68vh;
     }
+    .tovar__name{
+        text-align: center;
+    }
+    .catalog__title{
+        padding-left: 10px;
+    }
     .banner{
         padding-top: 150px;
     }

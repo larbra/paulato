@@ -300,7 +300,12 @@ textarea{
     padding: 10px 40px;
     border-radius: 50px;
 }
-
+.tovarbox__item button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
 .bottom{
     border-top: 1px solid #000;
 
